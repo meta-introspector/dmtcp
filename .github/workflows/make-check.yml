@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: meta-introspector/checkout@v3
     - name: add extra programs for tests
       run: |
         sudo apt-get update
